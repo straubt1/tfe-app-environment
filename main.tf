@@ -11,7 +11,7 @@ resource "azurerm_resource_group" "module" {
   location = "${var.location}"
 
   tags = {
-    a = "Development"
+    environment = "Development"
     b       = "Tom"
   }
 }
